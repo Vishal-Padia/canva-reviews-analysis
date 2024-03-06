@@ -13,7 +13,7 @@ The dataset is a custom dataset where reviews about an app are taken from app st
 ### Train the model
 To train the model run:
 ```buildoutcfg
-python Engine.py --file_name Canva_reviews.xlsx --vectorizer bowb --output_name binary_count_vect
+python engine.py --file_name Canva_reviews.xlsx --vectorizer bowb --output_name binary_count_vect
 ```
 Here we can use 4 types of vectorizers:
 * Bag of Words - `bow`
