@@ -1,0 +1,10 @@
+rs = 42
+stem = "p"
+min_df = 5
+ng_low = 1
+ng_high = 3
+test_size = 0.2
+text_col = "review"
+input_path = "data"
+output_path = "saved_models"
+label_col = "Sentiment"
